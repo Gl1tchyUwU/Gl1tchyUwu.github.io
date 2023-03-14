@@ -2,6 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 .container{
+    width: 530px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
@@ -59,7 +60,9 @@ html{
 }
 @media screen and (max-width: 990px){
     .container{
-        grid-template-columns: repeat(3, 1fr);
-        padding: 2rem 50px;
+        text-align: center;
+        align-content: left;
+        grid-template-columns: repeat(autofill, minmax(140px, 1fr));
+        padding: 1rem 50px;
     }
 }
