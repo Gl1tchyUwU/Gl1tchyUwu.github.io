@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+footer{
+    line-height: 140%;
+}
 .container{
     max-width: 530px;
     margin: 0 auto;
@@ -42,26 +45,32 @@ html{
     width:100%;
   }
  .img{
- margin-left: auto;
- margin-right: auto;
- width: 55px;
- height: 55px;
- position: relative;
- border-radius: 45px;
- display:flex;
- justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    border-radius: 45px;
+    display:flex;
+    justify-content: center;
  }
 .img:after{
- content: '';
- position: absolute;
- top: 0;
- left: 0;
- width: 50%;
- height: 90px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
 }
 .image-tab{
     display:flex;
     flex-wrap: wrap;
+}
+.text-count{
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
 }
 @media (max-width: 700px) {
     .container { grid-template-columns: repeat(3, 1fr); 
