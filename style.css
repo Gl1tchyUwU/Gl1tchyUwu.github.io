@@ -154,6 +154,33 @@ footer{
     text-decoration: none;
     color: currentColor;
 }
+.wave{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wave2{
+  width: calc(100% + 1.3px);
+  height: 141px;
+  transform: rotate(180deg);
+}
+.wave2 svg{
+  transform: rotateY(180deg);
+}
+.wave3{
+  width: calc(100% + 1.3px);
+  height: 116px;
+  transform: rotateY(180deg);
+}
+.tilt{
+  transform: rotate(180deg);
+}
+.tilt svg{
+  width: calc(100% + 1.3px);
+  height: 89px;
+}
 @media (max-width: 700px) {
     .container { grid-template-columns: repeat(3, 1fr); 
     }
